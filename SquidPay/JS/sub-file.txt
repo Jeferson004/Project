@@ -1,0 +1,92 @@
+
+ <form id="myForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="file">Attach a file:</label>
+    <input type="file" id="file" name="file"><br>
+    <div id="fileSize"></div><br>
+    
+    <button type="submit" id="submitButton">Submit</button>
+  </form>
+  
+  <div id="fileDisplayArea"></div>
+  <div id="loadingMessage" style="display: none;">Loading...</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const form = document.getElementById("myForm");
+  const submitButton = document.getElementById("submitButton");
+  const fileInput = document.getElementById("file");
+  const fileDisplayArea = document.getElementById("fileDisplayArea");
+
+  form.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const file = fileInput.files[0];
+
+    if (name && email && file) {
+      const fileDisplay = document.createElement("p");
+      fileDisplay.textContent = "Attached file: " + file.name;
+
+      const fileSize = (file.size / 1024).toFixed(2) + " KB - ";
+      const fileSizeDisplay = document.createElement("p");
+      fileSizeDisplay.textContent = "File size: " + fileSize;
+
+      fileDisplayArea.appendChild(fileDisplay);
+      fileDisplayArea.appendChild(fileSizeDisplay);
+
+      submitButton.style.backgroundColor = "yellow";
+
+      const loadingMessage = document.createElement("span");
+      loadingMessage.textContent = " 0% Uploading";
+      fileSizeDisplay.appendChild(loadingMessage);
+
+      let progress = 0;
+      const interval = setInterval(function() {
+        progress += 10;
+        if (progress <= 100) {
+          if (progress === 100) {
+            loadingMessage.textContent = progress + "%" + " Uploaded";
+          } else {
+            loadingMessage.textContent =  progress + "%" + " Uploading";
+          }
+        } else {
+          clearInterval(interval);
+        }
+      }, 500);
+    }
+  });
+
+  form.addEventListener("input", function() {
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const file = fileInput.files[0];
+
+    if (name && email && file) {
+      submitButton.style.backgroundColor = "yellow";
+    } else {
+      submitButton.style.backgroundColor = ""; // Reset to default
+    }
+  });
+});

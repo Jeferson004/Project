@@ -1,0 +1,65 @@
+https://alp.consulting/what-is-payroll-system/
+
+    Register Employee`s
+    Create Pay-slip
+    Generate General Payroll
+    Can Switch Admin or User mode
+    User Friendly
+    Print Payslip
+    Export data`s to Excel
+    Print Employee Information
+
+https://www.sourcecodester.com/blog/14050/payroll-system-thesis-documentation-chapter-two.html
+
+https://day.io/blog/payroll-software-what-to-look-for-in-a-good-solution/
+
+
+
+payroll system youtuve link:
+https://youtu.be/FJ0OYXCK6vQ?si=fAGjnWIkwDRT1S-d
+
+
+
+
+
+Review of related literature (LOCAL)
+Trias (2010), in their book titled "What is a Payroll System?", underscores the critical role of accurate calculations in a payroll system's success. They define a payroll system as one designed to compute taxes and deductions, with the flexibility to operate online or offline.
+Musa (2009), in the book "Philippine-Based Payroll System," focuses on the fundamental components or variables inherent in a Computerized Payroll System, detailing the specific database requirements for such a system.
+Lamberte, in the book "Philippine Payment System," outlines the fundamental elements of any payment-related system, highlighting the flow of information for payment instructions and fund transfers. Lamberte emphasizes the necessity of a tool, such as a computerized payment system (in this case, a Payroll System), to convey transaction information effectively.
+A research study conducted by the Department of Health (DOH) in 2007 explores the concept of a computerized payroll system. This system is described as a Windows-based program tailored to simplify the monthly preparation of general payroll and associated reports. The study also stresses the importance of flexibility to accommodate additional fields for unique compensation and deduction requirements specific to an office or company.
+An undergraduate study conducted at Cagayan De Oro City Hall, titled "Cagayan De Oro City Hall Computerized Payroll System," underscores the necessity of an easily accessible, efficient, and secure system.
+
+
+
+Review of related literature (FOREIGN)
+According to the book "System Documentation" from 2010, it tells us that a computerized payroll system should be able to keep employee information updated and generate essential outputs like paychecks and reports for management and government.
+In a blog article on blastasia.com from 2007, they mention that a computerized payroll system is designed to assist HR professionals, as well as finance and accounting teams, in efficiently managing employee compensation, deductions, allowances, and benefits within a company.
+Wikipedia.com's definition of Enterprise Resource Planning makes it clear that organizations see ERP as a vital tool for staying competitive. It does this by bringing together different parts of a company's systems, making transactions and production smooth. This is the basis for our system's ability to work well with other parts of the airline system.
+According to a research study titled "PAYROLL ERP SYSTEM" by Advantos Systems from 2013, they explain how important it is for a payroll system to let users set up employee paycheck records. They also stress the need for separate salary records for each employee and making sure tax rates and exemptions are correctly managed.
+In the system study called "INFONETICS PAYROLL SYSTEM" from 2012, they highlight the importance of a payroll system being easy for users. This includes keeping payroll records, making payroll reports, and printing checks. They also mention the system's ability to ensure tax tables and deductions are accurate using specific formulas.
+By ClydeTiu, Payroll System: Thesis Documentation Chapter Two, on Saturday, February 6, 2021 - 14:03.
+https://www.sourcecodester.com/blog/14050/payroll-system-thesis-documentation-chapter-two.html
+
+
+Time Tracking Integration
+Select payroll software that includes a time tracking feature or can seamlessly connect with your existing time tracking software, particularly if you employ hourly workers. This integration eliminates the necessity for manual data entry, resulting in improved overall efficiency and accuracy.
+
+Employee Self-Service
+Employee self-service offers two primary benefits. It allows employees to access their vacation balances, pay stubs, and W-2 forms directly, as well as make certain profile changes independently, like updating their address or bank account information. Consequently, this shift reduces the HR team's administrative workload, enabling them to concentrate on fostering a positive company culture and promoting accountability.
+
+Payroll Reports
+It's important to be able to make and adjust payroll reports. Payroll software should come with ready-made reports for quick use. But, it's also important that you can make your own reports since every company is different. Customizable reports let you create special datasets based on what's most important for your business. Before you decide, check what kinds of reports you can make to be sure you'll get the data you need.
+
+ By Unknown. 11 Must-Have Payroll Software Features. (May 18, 2023).
+https://www.paylocity.com/resources/resource-library/blog-post/payroll-software-features/
+
+
+
+Krizalen Enterprise Payroll with Biometric System
+According to the researchers Alvarez, Aldrine, Gecolea (2014) uses a biometrics with online data analytics dashboard to give krizalen enterprises an efficient payroll system that can automatically monitor the attendance and trip tickets of the employees, drivers and helpers with the biometrics technology and data analytics that would help them in the security and accuracy of the company payroll and information. Summing up the past situation of payroll inside krizalen enterprises, there was need for a system that could help them with employee information management attendance, monitoring, payroll processes, and assistance for the manager decision making. With this idea, the proponents conducted a study for the development of software that can minimize data redundancy, inconsistency, and manipulation. Employees can view their current pay and review their information from the database. And with updating of the reports that can be viewed through the internet, the manager can view the recent activities within the proposed system (www.scribd.com).
+
+Computerized Payroll System of Department of Health (DOH)
+The Computerized Payroll System of Department of Health is a window based program especially designed to facilitate and simplify the monthly preparation of general payroll and related reports such as Standard computerized payroll system for use in all DOH offices. It allows faster and more accurate computation of monthly gross income, deductions and net salary, less-resource-consuming generation of General Payroll and other payroll related reports and security and integrity of payroll data and information. The features of computerized payroll system of DOH are graphical user interface interactive and menu-driven program, systematic maintenance and retrieval of employee records (www.doh.gov.ph).
+
+
+https://itsourcecode.com/free-projects/php-project/payroll-system-php/
