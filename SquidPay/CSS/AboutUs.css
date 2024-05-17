@@ -377,6 +377,7 @@ img {
     row-gap: 1.25rem;
     max-width: 48rem;
     margin-inline: auto;
+    padding-bottom: 4rem;
 }
 
 .display-sm {
